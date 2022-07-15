@@ -16,9 +16,9 @@ This demo is c code that shows how to implement the below CLI on C Code. The Exa
 
 ##### Build
 
-1- Enable the Yocto SDK 
-2- Run make
-3- Two binaries are created PlayMP3video and PlayMP3video_vga. The first plays the video in it;s original format. The second does the downscale of the video.
+1. Enable the Yocto SDK 
+2. Run make
+3. Two binaries are created PlayMP3video and PlayMP3video_vga. The first plays the video in it;s original format. The second does the downscale of the video.
 
 ## Image Capture Demo
 
@@ -31,11 +31,11 @@ The ImageViewer.py python file decodes the generated binary file "capImage". The
 Pillow : used to decode and view images from numpy array
 numpy : used to import binary files into numpy array
 
-###Build
-1- Enable the Yocto SDK 
-2- Run make
-3- Copy the created binary ImageCapture to the RZ board.
-4- On the rz board type
+### Build
+1. Enable the Yocto SDK 
+2. Run make
+3. Copy the created binary ImageCapture to the RZ board.
+4. On the rz board type
 ``` ./ImageCapture MoveFile.mp3 ```
 # eAIDemo
 
