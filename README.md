@@ -14,7 +14,7 @@ This demo is c code that shows how to implement the below CLI on C Code. The Exa
 
 `gst-launch-1.0 filesrc location=./Road.mp4 ! qtdemux ! queue ! h264parse ! queue ! omxh264dec ! queue ! vspmfilter dmabuf-use=true ! video/x-raw, width=640, height=480 ! waylandsink`
 
-##### Build
+### Build
 
 1. Enable the Yocto SDK 
 2. Run make
