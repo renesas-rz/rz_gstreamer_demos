@@ -20,7 +20,7 @@ This demo is c code that shows how to implement the below CLI on C Code. The Exa
 2- Run make
 3- Two binaries are created PlayMP3video and PlayMP3video_vga. The first plays the video in it;s original format. The second does the downscale of the video.
 
-# Image Capture Demo
+## Image Capture Demo
 
 This is an example of how to capture images from the GStreamer stream. This demo uses the GStreamer AppSink Element. It pushes video frames to the user application. For this example the first frame of the MP3 Stream is saved to a binary file "capImage". Use the included script to view the image. This demo takes advantage of RZ peripherials H.264 for decoding and VSPM to convert the stream format and resolution. This method is a fast and efficient method to extract images compared to OpenCV and ARM Computelibrary. 
 
