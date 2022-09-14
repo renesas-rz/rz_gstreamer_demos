@@ -279,11 +279,11 @@ void Image::write_char(const uint8_t code, int32_t x,  int32_t y, int32_t color,
 
     if ((code >= 0x20) && (code <= 0x7e))
     {
-        p_pattern = (int8_t *)&g_ascii_table[code - 0x20][0];
+        p_pattern = (int8_t *)&r_ascii_table[code - 0x20][0];
     }
     else
     {
-        p_pattern = (int8_t *)&g_ascii_table[10][0]; /* '*' */
+        p_pattern = (int8_t *)&r_ascii_table[10][0]; /* '*' */
     }
 
     /* Drawing */

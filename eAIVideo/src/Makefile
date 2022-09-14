@@ -20,6 +20,7 @@ SRC=eAIVideo.cpp \
     gstutils.cpp \
     yolo/yolo_inf.cpp \
     yolo/yolov2_post.cpp \
+    yolo/ascii.cpp \
     yolo/image.cpp 
 
 all: eAIVideo_yolov2 \
